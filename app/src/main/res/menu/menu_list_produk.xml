@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_filter_seluruh_produk"
+        android:title="Seluruh Produk" />
+    <item
+        android:id="@+id/menu_item_filter_produk_tersedia"
+        android:title="Produk Tersedia" />
+    <item
+        android:id="@+id/menu_item_filter_produk_habis"
+        android:title="Produk Habis" />
+</menu>

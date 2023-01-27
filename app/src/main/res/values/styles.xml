@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PopupMenu -->
+    <style name="Widget.App.PopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- FAB-->
+    <style name="Widget.App.FAB.Primary" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.App.FAB.Primary.Small" parent="Widget.App.FAB.Primary">
+        <item name="fabSize">mini</item>
+    </style>
+
+    <style name="Widget.App.FAB.Primary.Blue" parent="Widget.Material3.FloatingActionButton.Surface">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.App.FAB.BottomSheet.Primary" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:translationY">-40dp</item>
+        <item name="backgroundTint">?attr/colorOnPrimary</item>
+        <item name="tint">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Widget.App.Button.IconButton" parent="Widget.Material3.Button.IconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">?attr/colorOnPrimary</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Widget.App.Button.IconButton.Red" parent="Widget.App.Button.IconButton">
+        <item name="iconTint">@color/white</item>
+        <item name="backgroundTint">@color/red_200</item>
+    </style>
+
+    <style name="Widget.App.Button.IconButton.Filled" parent="Widget.Material3.Button.IconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="backgroundTint">@color/cyan_50</item>
+    </style>
+
+    <style name="Widget.App.Button.IconButton.Small" parent="Widget.App.Button.IconButton">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Widget.App.Button.IconButton.Filled.Small" parent="Widget.App.Button.IconButton.Filled">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Widget.App.Button.IconOnly.Small" parent="Widget.Material3.Button.IconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Widget.App.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.App.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Wide" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="Widget.App.Button.Orange" parent="Widget.Material3.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:backgroundTint">@color/orange_500</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.App.Button.Red" parent="Widget.Material3.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:backgroundTint">@color/red_500</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+    </style>
+</resources>
